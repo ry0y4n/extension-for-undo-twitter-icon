@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Undo Twitter Icon",
+    "version": "1.0",
+    "description": "An extension that changes the Twitter icon back to the original great icon.",
+    "content_scripts": [
+        {
+            "matches": ["https://twitter.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
